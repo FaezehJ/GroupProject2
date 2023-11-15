@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+html {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  line-height: 2.5;
+  box-sizing: border-box;
+  height: 100%; 
+  background-image: url("assets/friends-dining.png");
+  background-size: cover;
+  background-position: center; 
+  background-attachment: fixed; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+.hidden {
+  display: none !important;
+}
+
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+
+
+
