@@ -101,7 +101,7 @@ button:hover {
 }
 
 .split-control button {
-    position: relative;
+    position: center;
 }
 
 .split-control input {
@@ -110,6 +110,7 @@ button:hover {
 }
 
 .split-total-input {
+    justify-content: center;
     background-color: whitesmoke; 
     border: 1px solid burlywood; 
     border-radius: 4px; 

@@ -57,7 +57,7 @@ function App() {
         <main className='calculator-container'>
             <h1>Tip Calculator</h1>
 
-            <label htmlFor="bill-total">Bill total</label>
+            <label htmlFor="bill-total">Bill Total</label>
             <input
                 id="bill-total"
                 type="text"
@@ -94,7 +94,7 @@ function App() {
             </div>
 
             <div className="result">
-                <label htmlFor="split-total">Split total</label>
+                <label htmlFor="split-total"><strong>Split total: </strong></label>
                 <input
                     id="split-total"
                     type="text"
